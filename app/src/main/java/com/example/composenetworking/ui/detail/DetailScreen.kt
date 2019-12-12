@@ -20,18 +20,17 @@ fun DetailScreen(article: Article) {
         inflexible {
             TopAppBar(
                 title = {
-                    if (article.author.isNullOrEmpty()){
-                        Text(
-                            text = "Noname",
-                            style = +themeTextStyle { h6 }
-                        )
-                    }else{
+                    if (article.author!!.length < 20) {
                         Text(
                             text = article.author,
                             style = +themeTextStyle { h6 }
                         )
+                    } else {
+                        Text(
+                            text = article.author.substring(0, 20) + " ...",
+                            style = +themeTextStyle { h6 }
+                        )
                     }
-
                 },
                 navigationIcon = {
                     VectorImageButton(R.drawable.ic_baseline_arrow_back_24) {
