@@ -20,13 +20,13 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import java.lang.Exception
+
 
 @CheckResult(suggest = "+")
 fun image(data: Any) = effectOf<Image?> {
     // Positionally memoize the request creation so
     // it will only be recreated if data changes.
-    Log.d("AndroidImage", data.toString())
+
     val request = +memo(data) {
         Coil.loader().newGetBuilder().data(data).build()
     }
@@ -39,16 +39,15 @@ fun image(data: Any) = effectOf<Image?> {
 @CheckResult(suggest = "+")
 fun image(request: GetRequest) = effectOf<Image?> {
     val image = +state<Image?> { null }
-    Log.d("AndroidImage", request.toString())
-
     // Execute the following code whenever the request changes.
     +onCommit(request) {
-        val job = CoroutineScope(Dispatchers.Main.immediate).launch {
+        val job = CoroutineScope(Dispatchers.IO).launch {
             // Start loading the image and await the result.
             val drawable = Coil.loader().get(request)
-            image.value = AndroidImage(drawable.toBitmap())
+            withContext(Dispatchers.Main){
+                image.value = AndroidImage(drawable.toBitmap())
+            }
         }
-
         // Cancel the request if the input to onCommit changes or
         // the Composition is removed from the composition tree.
         onDispose { job.cancel() }
