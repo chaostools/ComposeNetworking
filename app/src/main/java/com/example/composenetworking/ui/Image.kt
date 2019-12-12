@@ -28,9 +28,7 @@ fun image(data: Any) = effectOf<Image?> {
     // it will only be recreated if data changes.
     Log.d("AndroidImage", data.toString())
     val request = +memo(data) {
-        Log.d("AndroidImage", data.toString())
         Coil.loader().newGetBuilder().data(data).build()
-
     }
     +image(request)
 }
@@ -49,7 +47,6 @@ fun image(request: GetRequest) = effectOf<Image?> {
             // Start loading the image and await the result.
             val drawable = Coil.loader().get(request)
             image.value = AndroidImage(drawable.toBitmap())
-
         }
 
         // Cancel the request if the input to onCommit changes or

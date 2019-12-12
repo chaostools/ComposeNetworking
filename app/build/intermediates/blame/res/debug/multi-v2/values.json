@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\nicke\\Desktop\\Android\\ComposeNetworking\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\nicke\\Desktop\\ComposeNetworking\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nicke\\Desktop\\Android\\ComposeNetworking\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\nicke\\Desktop\\ComposeNetworking\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -39,23 +39,6 @@
                         "endLines": "1943,1950,1961,3000,3005",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "130772,131157,131754,187032,187302"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\nicke\\Desktop\\Android\\ComposeNetworking\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "27,28,29",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "1879,1925,1972",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "1920,1967,2018"
                     }
                 },
                 {
@@ -95,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nicke\\Desktop\\Android\\ComposeNetworking\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\nicke\\Desktop\\ComposeNetworking\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -109,6 +92,23 @@
                         "startOffsets": "18365",
                         "endColumns": "54",
                         "endOffsets": "18415"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nicke\\Desktop\\ComposeNetworking\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "27,28,29",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1879,1925,1972",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "1920,1967,2018"
                     }
                 },
                 {

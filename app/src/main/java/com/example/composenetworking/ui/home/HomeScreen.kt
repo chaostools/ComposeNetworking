@@ -94,8 +94,13 @@ fun PaperColumn(paperListItem: List<Article>) {
             modifier = Spacing(16.dp)
         ) {
             for (item in paperListItem) {
-                SchedulerItem(item)
-                HeightSpacer(height = 16.dp)
+                if (item.author.isNullOrEmpty()){
+
+                }else{
+                    SchedulerItem(item)
+                    HeightSpacer(height = 16.dp)
+                }
+
             }
         }
     }

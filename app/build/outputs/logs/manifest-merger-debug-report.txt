@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\3abe3c3c796643af8b9db96a3fc1440a\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.0.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\d28bf1b824c384b9d35748b16b6c4e6d\jetified-activity-ktx-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [io.coil-kt:coil:0.8.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\e140ab15711b86283426fbd7a04f06ad\jetified-coil-0.8.0\AndroidManifest.xml:2:1-16:12
@@ -19,6 +19,7 @@ MERGED from [androidx.ui:ui-platform:0.1.0-dev02] C:\Users\nicke\.gradle\caches\
 MERGED from [androidx.ui:ui-text:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\f234fb6d999e36e0f6efd93204aba167\jetified-ui-text-0.1.0-dev02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.ui:ui-vector:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\181a1aac7c443b3927fc744d21480e51\jetified-ui-vector-0.1.0-dev02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.ui:ui-core:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\fdce4233f682bed8d9b7e2581c0258b4\jetified-ui-core-0.1.0-dev02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose:compose-runtime:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\0f34f8cf912f5e9d4358003e5801f1dc\jetified-compose-runtime-0.1.0-dev02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.ui:ui-animation-core:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\38c77b998846e95a2ba881dad580f2f3\jetified-ui-animation-core-0.1.0-dev02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.ui:ui-android-text:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\57585f2ae80013f5a40b83bcc3530044\jetified-ui-android-text-0.1.0-dev02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\1ee3c8dcbb822d7ed7dc8e017332101f\jetified-lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:17:1-22:12
@@ -47,30 +48,29 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\nicke\.gradle\cache
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\0cadb9c7bab0d154516574e29489eedf\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\5b5b7bc0158e5620e8069ad33820ffae\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\d06dffa1f80819f078d5abf416ccc24d\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose:compose-runtime:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\0f34f8cf912f5e9d4358003e5801f1dc\jetified-compose-runtime-0.1.0-dev02\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:7:5-24:19
 MERGED from [io.coil-kt:coil:0.8.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\e140ab15711b86283426fbd7a04f06ad\jetified-coil-0.8.0\AndroidManifest.xml:9:5-14:19
 MERGED from [io.coil-kt:coil:0.8.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\e140ab15711b86283426fbd7a04f06ad\jetified-coil-0.8.0\AndroidManifest.xml:9:5-14:19
 MERGED from [androidx.ui:ui-tooling:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\3bc7332edbb897e310ed50cc919a4bc3\jetified-ui-tooling-0.1.0-dev02\AndroidManifest.xml:24:5-20
@@ -82,39 +82,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ni
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\d2303f9f45898bc5cb13597ed755ca2f\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.composenetworking.MainActivity
-ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:14:9-23:20
+ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:14:9-23:20
 	android:label
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:16:13-45
 	android:theme
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:17:13-44
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:17:13-44
 	android:name
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\3abe3c3c796643af8b9db96a3fc1440a\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\3abe3c3c796643af8b9db96a3fc1440a\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.0.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\d28bf1b824c384b9d35748b16b6c4e6d\jetified-activity-ktx-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -145,6 +145,8 @@ MERGED from [androidx.ui:ui-vector:0.1.0-dev02] C:\Users\nicke\.gradle\caches\tr
 MERGED from [androidx.ui:ui-vector:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\181a1aac7c443b3927fc744d21480e51\jetified-ui-vector-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.ui:ui-core:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\fdce4233f682bed8d9b7e2581c0258b4\jetified-ui-core-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.ui:ui-core:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\fdce4233f682bed8d9b7e2581c0258b4\jetified-ui-core-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose:compose-runtime:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\0f34f8cf912f5e9d4358003e5801f1dc\jetified-compose-runtime-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose:compose-runtime:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\0f34f8cf912f5e9d4358003e5801f1dc\jetified-compose-runtime-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.ui:ui-animation-core:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\38c77b998846e95a2ba881dad580f2f3\jetified-ui-animation-core-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.ui:ui-animation-core:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\38c77b998846e95a2ba881dad580f2f3\jetified-ui-animation-core-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.ui:ui-android-text:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\57585f2ae80013f5a40b83bcc3530044\jetified-ui-android-text-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
@@ -201,18 +203,16 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\5b5b7bc0158e5620e8069ad33820ffae\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\d06dffa1f80819f078d5abf416ccc24d\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\d06dffa1f80819f078d5abf416ccc24d\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose:compose-runtime:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\0f34f8cf912f5e9d4358003e5801f1dc\jetified-compose-runtime-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose:compose-runtime:0.1.0-dev02] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\0f34f8cf912f5e9d4358003e5801f1dc\jetified-compose-runtime-0.1.0-dev02\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\nicke\Desktop\Android\ComposeNetworking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nicke\Desktop\ComposeNetworking\app\src\main\AndroidManifest.xml
 provider#coil.util.CoilContentProvider
 ADDED from [io.coil-kt:coil:0.8.0] C:\Users\nicke\.gradle\caches\transforms-2\files-2.1\e140ab15711b86283426fbd7a04f06ad\jetified-coil-0.8.0\AndroidManifest.xml:10:9-13:40
 	android:authorities
